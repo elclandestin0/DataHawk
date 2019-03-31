@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.datahawk.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Memo\\Desktop\\VR\\DataHawk\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "DataHawk [Testing]"
+        }
+      }
+    }
+  ]
+}
