@@ -33,14 +33,6 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabPinch
-        {
-            get
-            {
-                return SteamVR_Actions.default_GrabPinch;
-            }
-        }
-        
         public virtual SteamVR_Action_Boolean GrabGrip
         {
             get
@@ -86,6 +78,70 @@ namespace Valve.VR
             get
             {
                 return SteamVR_Actions.default_HeadsetOnHead;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean SpawnHawk
+        {
+            get
+            {
+                return SteamVR_Actions.default_SpawnHawk;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GetHawk
+        {
+            get
+            {
+                return SteamVR_Actions.default_GetHawk;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GrabPinch
+        {
+            get
+            {
+                return SteamVR_Actions.default_GrabPinch;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean ToggleUI
+        {
+            get
+            {
+                return SteamVR_Actions.default_ToggleUI;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Motorcycle
+        {
+            get
+            {
+                return SteamVR_Actions.default_Motorcycle;
+            }
+        }
+        
+        public virtual SteamVR_Action_Vector2 SteerMotorcycle
+        {
+            get
+            {
+                return SteamVR_Actions.default_SteerMotorcycle;
+            }
+        }
+        
+        public virtual SteamVR_Action_Single AccelerateMotorcycle
+        {
+            get
+            {
+                return SteamVR_Actions.default_AccelerateMotorcycle;
+            }
+        }
+        
+        public virtual SteamVR_Action_Single BrakeMotorcycle
+        {
+            get
+            {
+                return SteamVR_Actions.default_BrakeMotorcycle;
             }
         }
         
